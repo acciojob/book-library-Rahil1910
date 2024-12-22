@@ -4,10 +4,77 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		body{
+			Background-color: #f8f8f8;
+		}
+        .book-library{
+            background-color: #ffffff;
+            width:250px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            height: 38rem;
+            padding:10px;
+            padding-top:0px;
+			box-shadow:3px 3px 3px 3px grey;
+        }
+        .book-library>h1{
+            background-color: lightgray;
+            margin-bottom: 0px;
+            text-align: center;
+            height: 10px;
+            padding: 6px;
+
+        }
+        .book{
+            background-color: lightgrey;
+            text-align: center;
+            padding-top:5px;
+            padding-bottom: 5px;
+            padding: 5px;
+        }
+        .book button{
+            background-color: rgb(9, 199, 21);
+            width:100%;
+            border:1px;
+            border-radius: 4px;
+            color:white;
+            font-size: 5px;
+            height:15px;
+        }
+        .book-library img{
+            height:130px;
+        }
+        .book-library h1{
+            text-align: left;
+            font-size: 10px;
+        }
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="book-library">
+		<h1>Book Library</h1>
+		<div class="book">
+			<img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg">
+			<h1>Spy in the Amber</h1>
+			<button>Rs 200</button>
+		</div>
+		<div class="book">
+			<img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg">
+			<h1>Sacred Games</h1>
+			<button>Rs 400</button>
+		</div>
+		<div class="book">
+			<img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg">
+			<h1>Byomkesh Bakshi</h1>
+			<button>Rs 350</button>
+		</div>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
